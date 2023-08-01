@@ -20,6 +20,10 @@ export default {
       fontSize: {
         title: "15px;",
       },
+      backgroundImage: {
+        "header-mobile": "url('/src/assets/bg-header-mobile.svg')",
+        "header-desktop": "url('/src/assets/bg-header-desktop.svg')",
+      },
     },
   },
   plugins: [],

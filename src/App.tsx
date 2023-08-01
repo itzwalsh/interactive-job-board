@@ -1,8 +1,14 @@
+import Header from "./components/Header"
+import Home from "./components/Home"
+
 function App() {
   return (
-    <>
-      <p className="text-4xl">test</p>
-    </>
+    <div className="w-full">
+      <section>
+        <Header />
+        <Home />
+      </section>
+    </div>
   )
 }
 
