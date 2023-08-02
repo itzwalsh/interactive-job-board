@@ -18,7 +18,8 @@ export default {
     },
     extend: {
       fontSize: {
-        title: "15px;",
+        "mobile-title": "15px;",
+        "desktop-title": "18px;",
       },
       backgroundImage: {
         "header-mobile": "url('/src/assets/bg-header-mobile.svg')",

@@ -11,12 +11,9 @@ ul li {
     display: inline;
 }
 
-.job-card:hover {
+.featured-job {
     transition-duration: 200ms;
-    box-shadow:
-        inset 4px 0 0 0 #5da5a4,
-        0 0 0;
-    cursor: pointer;
+    box-shadow: inset 5px 0px 0px 0px #5da5a4;
 }
 
 .seperator:first-child::after,
